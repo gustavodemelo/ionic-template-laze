@@ -20,4 +20,7 @@ export class HomePage {
 
   }
 
+  irParaNOticias(){
+    this.navCtrl.setRoot('NoticiasPage');
+  }
 }
